@@ -5,4 +5,5 @@ def sumas():
     y2 = int(y)
     a = x1+y2
     return "El resultado es: "+ str(a)
-print(sumas())
+resultado = sumas()
+print(resultado)
