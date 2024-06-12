@@ -2,7 +2,7 @@
 Están las siguientes funciones:
 1. Print Hello World
 2. Jugar al cachipun
-3. Calcular Sumas
+3. Calcular sumas
 
 
 ## Contributors
