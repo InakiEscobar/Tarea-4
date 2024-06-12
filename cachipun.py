@@ -12,4 +12,6 @@ def piedra_papel_tijera():
         return "¡Ganaste!"
     else:
         return "Perdiste :("
-print(piedra_papel_tijera())
+
+resultado = piedra_papel_tijera()
+print(resultado) 
