@@ -1,2 +1,13 @@
 # Tarea-4
-HOlaaaaa
+Están las siguientes funciones:
+1. Print Hello World
+2. Jugar al cachipun
+3. Calcular sumas
+
+
+## Contributors
+- Iñaki: Jugar cachipun y calcular sumas
+- Fernando: Calculate Final Grade
+
+
+English or spanish?
