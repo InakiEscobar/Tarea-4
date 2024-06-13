@@ -4,12 +4,9 @@ Created on Tue Jun 11 20:16:27 2024
 
 @author: HBKfdo
 """
-def calcular_promedio(notas):
-    """Calcula el promedio de una lista de notas."""
-    return sum(notas) / len(notas)
 
-def main():
-    """Función principal que interactúa con el usuario."""
+def promedio():
+    """Función que interactúa con el usuario para obtener y calcular el promedio de notas."""
     print("Programa para calcular el promedio de notas")
 
     # Pedir el número de notas
@@ -36,9 +33,6 @@ def main():
                 print(f"Entrada inválida: {e}. Por favor, ingresa un número válido.")
 
     # Calcular y mostrar el promedio
-    promedio = calcular_promedio(notas)
-    print(f"El promedio de las {num_notas} notas es: {promedio:.2f}")
-
-if __name__ == "__main__":
-    main()
-
+    promedio = sum(notas) / len(notas)
+    print(f"El promedio de las {num_notas} notas es:")
+    return promedio
